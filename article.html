@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - EqualEcho</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #ededed;
+            font-weight: 600;
+        }
+
+        .logo-image {
+            height: 80px; 
+            margin-right: 10px; 
+        }
+
+        .logo-text {
+            font-size: 25px; 
+            color: #ededed; 
+            font-weight: 600;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: #00abf0;
+        }
+        
+        #background-audio {
+            position: absolute;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+    
+        header, section, footer {
+            color: #fff; 
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+        }
+    
+        h1 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    
+        section {
+            margin: 20px auto;
+            padding: 25px;
+            max-width: 1000px; 
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+        }
+    
+        p {
+            text-align: justify;
+            line-height: 1.8;
+            font-size: 16px; 
+            margin-bottom: 20px; 
+        }
+    
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            
+            .logo-image {
+                height: 50px;
+            }
+            
+            .navbar {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"> 
+            <img class="logo-image" src="logo.png" alt="Logo">
+            <span class="logo-text">EqualEcho</span>
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="skill.html">Profile</a>
+            <a href="sdg.html">SDG Feature</a>
+            <a href="article.html" class="active">Article</a>
+            <a href="contacts.html">Contact</a>
+        </nav>
+    </header>
+    
+    <audio id="background-audio" loop>
+        <source src="background-music.mp3" type="audio/mp3">
+    </audio>
+    
+    <script>
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('background-audio');
+            audio.play();
+        });
+    </script>
+
+<section id="article" class="section">
+    <h1>Gender Equality</h1>
+    <p>
+        From the Book of Genesis, Chapter One, Verse Twenty-Seven: God created man, and the basis was His own image. This shows that you, I, or all of us, regardless of gender, have equal dignity and value in the eyes of God. If all people, regardless of gender, were created in God's image, how can we truly demonstrate equality in our society? Gender equality is one of the seventeen sustainable development goals established by the United Nations. Its aim is to end all forms of discrimination against women and children and ensure they have equal rights and opportunities in all aspects of life. Why is gender equality important? It is vital because it upholds a just and progressive society. When men and women have equal rights, a country’s economy, education, and peace have a higher chance of thriving. But what if this modern and humane world we are striving for still hides outdated ideologies and toxic beliefs on its fringes? Nine years later, challenges in achieving equal treatment between genders remain, with women experiencing these struggles the most. First, workplace discrimination. The wage gap persists, where women earn less than men even when doing the same job with equal responsibilities. Imagine a woman, intelligent, educated, and experienced, applying for a high position. Yet a man with the same qualifications is often given priority.
+    </p>
+    <p>
+        What’s more painful is that this is not just one woman’s story, it is the reality of many. A silent yet glaringly obvious system says: "You’re just a woman." We cannot allow this. In today’s time, stricter anti discrimination laws should be enforced to eliminate workplace discrimination and ensure equal pay. Second, violence and abuse. When a woman becomes a victim of violence, whether physical, emotional, or sexual, people ask, “What was she wearing?” or “Why was she out late at night?” The rotten idea that the victim is to blame for her trauma still prevails. Shouldn’t the better question be why people commit violence and why perpetrators remain free? It would be a great help to establish more women and child protection units and counseling centers as safe havens for victims. But it’s not just women who suffer. Men can also be victims of abuse, particularly physical or emotional. In today’s society, men are often expected to hide vulnerability. A man admitting he is hurt is sometimes seen as a loss of honor. Starting now, we should educate both the youth and society as a whole, fostering awareness to recognize individuals based on their unique traits, not their gender. Third, discrimination in education. In Afghanistan, young people, especially girls, are denied the right to education. Here in the Philippines, regardless of gender, we can freely pursue education. But in other parts of the world, girls are locked behind bars, kept away from schools.
+    </p>
+    <p>
+        In a time when education is the key to rising above life’s difficulties, how can we open the lock when the door to opportunity is being withheld and buried? Gender equality issues are not just women’s problems; they are problems for all of us. By accepting the current situation, we are also accepting an unequal future. Let us start with ourselves today. Let us discard outdated notions about gender rooted in the past. Discrimination has been part of our history, but it is something we should no longer revisit.
+    </p>
+</section>
+
+<section id="equal-opportunities" class="section">
+    <h1>The Importance of Equal Opportunities</h1>
+    <p>
+        Equal opportunity is the cornerstone of fairness in both executive offices and academics. Communities grow both socially and economically when women and men have equal access to resources, employment opportunities, and education. Despite improvements, obstacles still exist. Women are frequently underrepresented in leadership positions, politics, and STEM disciplines. For instance, research indicates that less than 30% of researchers worldwide are women.
+    </p>
+    <p>
+        Leveling equal opportunities allows everyone to realize their greatest potential and creates civilizations in which everyone grows. True equality is a human concern, not just a woman's.
+    </p>
+</section>
+
+<section id="gender-stereotypes" class="section">
+    <h1>Breaking the Cycle of Gender Stereotypes</h1>
+    <p>
+        Society tells girls to be compassionate and boys to become strong from an early age. Despite their apparent subtlety, these stereotypes serve as the foundation for ongoing inequalities. A boy who is discouraged from displaying emotions may not be able to show vulnerability when he gets older. If a girl is discouraged from taking chances, she may not take on leadership roles in the future.
+    </p>
+    <p>
+        Education and consciousness are important for breaking this cycle. Workplaces should provide education that eliminates unconscious biases, schools should promote equality, and media representation should question old practices. There are countless opportunities for people of all genders in a world without stereotypes.
+    </p>
+</section>
+
+<section id="gender-violence" class="section">
+    <h1>The Fight Against Gender-Based Violence</h1>
+    <p>
+        Violence against women is among the most widespread types of inequality. According to statistics, one in three women worldwide have been the victim of physical or sexual abuse at some point in their lives. These actions, which range from workplace harassment to household abuse, strip victims of their rights and dignity.
+    </p>
+    <p>
+        Protecting women is only one aspect of ending gender-based violence; another is creating safer communities for all.
+    </p>
+</section>
+
+    <footer>
+        <p>&copy; 2024 EqualEcho. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

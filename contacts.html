@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - EqualEcho</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 600;
+}
+
+.logo-image {
+    height: 80px; 
+    margin-right: 10px; 
+}
+
+.logo-text {
+    font-size: 25px; 
+    color: #ededed; 
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+        #contacts {
+            padding: 80px 10%;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        #contacts h1 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        #contacts p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .contact-card {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: left;
+            border: 2px solid #ffffff;
+        }
+
+        .contact-card h3 {
+            margin-bottom: 10px;
+            font-size: 22px;
+            color: #ffffff;
+        }
+
+        .contact-card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact-card li {
+            margin: 10px 0;
+        }
+
+        .contact-card a {
+            color: #00abf0;
+            text-decoration: none;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 8px;
+            color: #333;
+        }
+
+        .contact-form button {
+            padding: 12px 20px;
+            background-color: #00abf0;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #ffffff;
+            color: #00abf0;
+        }
+
+        #background-audio {
+            position: absolute;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"> 
+            <img class="logo-image" src="logo.png" alt="Logo">
+            <span class="logo-text">EqualEcho</span>
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="skill.html">Profile</a>
+            <a href="sdg.html">SDG Feature</a>
+            <a href="article.html">Article</a>
+            <a href="contacts.html" class="active">Contact</a>
+        </nav>
+    </header>
+    
+
+    <audio id="background-audio" loop>
+        <source src="background-music.mp3" type="audio/mp3">
+    </audio>
+    
+    <script>
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('background-audio');
+            audio.play();
+        });
+        window.addEventListener('load', initializeAudio);
+    </script>
+
+    <section id="contacts">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or want to get in touch with us.</p>
+
+        <h2>Our Team Contacts:</h2>
+        <div class="contact-info">
+            <div class="contact-card">
+                <h3>Adrian Del Mundo</h3>
+                <ul>
+                    <li>Instagram: <a href="https://www.instagram.com/adriankdtw?igsh=YW5zM3h1Zm8xMzlkJanzent" target="_blank">adriankdtw</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/adrian.delmundo.946?mibextid=ZbWKwL" target="_blank">Adrian Del Mundo</a></li>
+                    <li>Email: 24-02924@g.batstate-u.edu.ph</li>
+                </ul>
+            </div>
+            <div class="contact-card">
+                <h3>Janzent Rico</h3>
+                <ul>
+                    <li>Instagram: <a href="https://www.instagram.com/janzentrico?igsh=MTB5M2Zuc2w4N3Rkcg==" target="_blank">janzentrico</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/janzent.rico?mibextid=ZbWKwL" target="_blank">Janzent Rico</a></li>
+                    <li>Email: 24-00926@g.batstate-u.edu.ph</li>
+                </ul>
+            </div>
+            <div class="contact-card">
+                <h3>John Reinner Claveria</h3>
+                <ul>
+                    <li>Instagram: <a href="https://www.instagram.com/jiro_147/" target="_blank">jiro_147</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/robert.rennier" target="_blank">John Reinner Claveria</a></li>
+                    <li>Email: 24-09894@g.batstate-u.edu.ph</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EqualEcho. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+
+            if (!name || !email || !message) {
+                alert("Please fill out all required fields.");
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
