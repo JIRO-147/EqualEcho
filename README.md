@@ -54,9 +54,23 @@ We aim to dismantle gender stereotypes and end gender-based violence by educatin
 
 ## Contact Us
 Learn more about EqualEcho and join our mission for a fair and equal world:
-- Email: [contact@equalecho.org](mailto:contact@equalecho.org)
-- Social Media: [Facebook](#), [Twitter](#), [Instagram](#)
+
+### John Reinner Claveria
+- **Instagram**: [@jiro_147](https://instagram.com/jiro_147)
+- **Facebook**: [John Reinner Claveria](https://www.facebook.com/robert.rennier)
+- **Email**: [24-09894@g.batstate-u.edu.ph](mailto:24-09894@g.batstate-u.edu.ph)
+
+### Adrian Del Mundo
+- **Instagram**: [@adriankdtw](https://www.instagram.com/adriankdtw/?igsh=YW5zM3h1Zm8xMzlkJanzent#)
+- **Facebook**: [Adrian Del Mundo](https://www.facebook.com/adrian.delmundo.946?mibextid=ZbWKwL)
+- **Email**: [24-02924@g.batstate-u.edu.ph](mailto:24-02924@g.batstate-u.edu.ph)
+
+### Janzent Rico
+- **Instagram**: [@janzentrico](https://www.instagram.com/janzentrico/?igsh=MTB5M2Zuc2w4N3Rkcg%3D%3D#)
+- **Facebook**: [Janzent Rico](https://www.facebook.com/janzent.rico?mibextid=ZbWKwL)
+- **Email**: [24-00926@g.batstate-u.edu.ph](mailto:24-00926@g.batstate-u.edu.ph)
 
 ---
 
 Together, we can build a future where equality is not an aspiration but a reality for all.
+
